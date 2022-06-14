@@ -18,5 +18,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/kelas',[KelasController::class,'getDataKelas']);
-Route::get('/kelas/{idkelas}',[KelasController::class,'getDataKelasById']);
